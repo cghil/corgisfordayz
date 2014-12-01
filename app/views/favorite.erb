@@ -1,0 +1,13 @@
+<header>
+  <h1> Your Favorites Corgis </h1>
+</header>
+
+<body>
+  <div id="favorites">
+    <%@favorites.each do |favorite|%>
+    <iframe width="560" height="315" src="http://www.youtube.com/embed/<%=favorite.url%>" frameborder="0" allowfullscreen></iframe>
+    <br>
+    <%end%>
+</div>
+</body>
+

@@ -1,0 +1,102 @@
+body,html{
+	height: 100%;
+}
+
+/*header{
+	color:#3F3F3F;
+	height:100%;
+	width:100%;
+	background: url('https://41.media.tumblr.com/09ef4c00262ca9ee1dc4fa40e976cac4/tumblr_n4rwulTliQ1rymh20o1_1280.jpg') repeat-x left 50px;
+	background-position: -10px, -15px;
+	text-align: center;
+}*/
+
+brand{
+	text-align: right;
+}
+
+header{
+	margin-top:0px;
+}
+
+h1{
+	color: black;
+	text-align: center;
+	padding-top: 40px;
+	font-family: 'Open Sans', sans-serif;
+}
+
+.button {
+	transition-duration: 0.3s;
+	color: #F80000 ;
+	border: 2px solid #F80000;
+	background: none;
+	text-shadow: none;
+	width: 120px;
+	line-height: 120px;
+	height: 120px;
+	padding: 0px;
+	border-width: 4px;
+	font-size: 18px;
+	font-family: "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+	width: 120px;
+	border-radius: 240px;
+}
+
+.button:hover, .button:focus {
+color: #F80000;
+background-color: #EEE;
+background: url('data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0idXRmLTgi…pZHRoPSIxMDAlIiBoZWlnaHQ9IjEwMCUiIGZpbGw9InVybCgjZ3JhZCkiIC8+PC9zdmc+IA==');
+background: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #ffffff), color-stop(100%, #dcdcdc));
+background: -moz-linear-gradient(top, #ffffff, #dcdcdc);
+background: -webkit-linear-gradient(top, #ffffff, #dcdcdc);
+background: linear-gradient(to bottom, #ffffff, #dcdcdc);
+border: #EEE;
+}
+
+
+#corgi{
+	padding-top: 30px;
+	width: 170px;
+	height: 150px;
+	margin-left: 45%;
+}
+
+ul {
+  list-style-type: none;
+}
+
+#nav li {
+	color: black;
+	display: inline-block;
+  float:right;
+}
+
+a:link{
+	color: black;
+	list-style-type: none;
+	text-decoration: none;
+}
+
+nav {
+	margin-right: 10px;
+}
+
+a {
+	margin-right: 10px;
+}
+
+a:visited {
+	color: black;
+	list-style-type: none;
+	text-decoration: none;
+}
+
+#favorites {
+	text-align: center;
+}
+
+p#woof {
+	font-family: 'Love Ya Like A Sister', cursive;
+	display: inline-block;
+}

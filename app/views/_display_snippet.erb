@@ -1,0 +1,22 @@
+<head>
+  <link rel="stylesheet" href="/css/normalize.css">
+
+  <link rel="stylesheet" href="/css/display_snippet.css">
+</head>
+
+<div id ="snippets">
+  <%(0..(@titles.length-1)).each do |i| %>
+  <br>
+  <div class="video">
+      <br>
+       <a class="imgspring" href="#">
+        <img id="<%=@video_ids[i]%>"class="spring" src= "http://2.bp.blogspot.com/-sSK1-TYeE0c/UTV6h1TN4oI/AAAAAAAAQkw/e4ptK5nDoBs/s400/tumblr_m9lyekluMx1qeowz8o1_500.jpg">
+      </a>
+      <h4> <%=@titles[i]%></h4>
+      <iframe width="560" height="315" src="http://www.youtube.com/embed/<%=@video_ids[i]%>" frameborder="0" allowfullscreen></iframe>
+      <br>
+      <p><%=@descriptions[i]%></p>
+      <br>
+  </div>
+  <%end%>
+</div>
